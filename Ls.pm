@@ -2,7 +2,7 @@ package POE::Filter::Ls;
 
 use POE::Filter::Line;
 
-$VERSION = 0.01;
+$VERSION = 0.02;
 
 sub new {
   my $class = shift; 
