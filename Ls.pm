@@ -5,7 +5,7 @@ use POE::Filter::Line;
 $VERSION = 0.02;
 
 sub new {
-  my $class = shift; 
+  my $class = shift;
 
   return bless [ new POE::Filter::Line( Literal => "\015\012" ) ],
     ref($class)||$class;
@@ -18,7 +18,7 @@ sub put {
 
 sub get {
   my ($self, $lines) = @_;
- 
+
   return [ map {
     my %info;
     if (/^(.|-)(.{9})\s+(\d+)\s+(\w+)\s+(\w+)\s+(\d+)\s+(\w{3}\s+\d+\s+\d+:\d+)\s+(.*?)(?:\s+->\s+(.*))?$/) {
@@ -35,20 +35,3 @@ __END__
 =head1 NAME
 
 POE::Filter::Ls - translates common ls formats into a hashref
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
