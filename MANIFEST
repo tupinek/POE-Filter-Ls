@@ -3,4 +3,5 @@ Ls.pm
 Makefile.PL
 MANIFEST
 README
+samples/list.pl
 test.pl
