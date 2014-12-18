@@ -4,6 +4,7 @@ Revision history for Perl extension POE::Filter::Ls.
  - Add doc stub.
  - Add test for #5443 bug.
  - Add tests.
+ - Fix #5443 bug.
  - Remove trailing whitespace.
  - Rewrite Changes file to CPAN::Changes::SPEC format.
  - Rewrite build system.
