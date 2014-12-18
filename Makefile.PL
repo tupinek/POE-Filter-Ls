@@ -16,6 +16,7 @@ requires 'POE::Filter::Line' => 0;
 requires 'perl' => '5.8.0';
 test_requires 'English' => 0;
 test_requires 'File::Object' => 0.05;
+test_requires 'Perl6::Slurp' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 test_requires 'Test::Pod' => 0;
