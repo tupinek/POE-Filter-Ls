@@ -1,7 +1,7 @@
 Revision history for Perl extension POE::Filter::Ls.
 
 0.02
- - Add samples/list.pl to MANIFEST file.
+ - Add tests.
  - Remove trailing whitespace.
  - Rewrite Changes file to CPAN::Changes::SPEC format.
  - Rewrite build system.

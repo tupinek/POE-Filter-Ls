@@ -1,0 +1,2 @@
+drwxr-xr-x 2 skim skim 4096 Dec  9 14:51 data
+-rwxr-xr-x 1 skim skim 1318 Dec  9 14:14 ex1.pl

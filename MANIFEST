@@ -14,7 +14,12 @@ MANIFEST			This list of files
 META.yml
 README
 samples/list.pl
+t/data/ex1.txt
+t/data/ex2.txt
 t/POE-Filter-Ls/00-use.t
 t/POE-Filter-Ls/01-version.t
 t/POE-Filter-Ls/02-pod_coverage.t
 t/POE-Filter-Ls/03-pod.t
+t/POE-Filter-Ls/04-new.t
+t/POE-Filter-Ls/05-get.t
+t/POE-Filter-Ls/06-put.t
