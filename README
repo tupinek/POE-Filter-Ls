@@ -1,3 +1,24 @@
 NAME
-    POE::Filter::Ls - translates common ls formats into a hashref
+    POE::Filter::Ls - Translates common ls formats into a hashref.
+
+METHODS
+    "new()"
+             Constructor.
+
+    "get($data_ar)"
+             Get input data in ls format and returns reference to array with ls informations
+             in hash references.
+
+    "put($data_ar)"
+             Put ls informations in hash references and returns data in ls format.
+             TODO Not functional.
+
+DEPENDENCIES
+    POE::Filter::Line.
+
+DEPENDECIES
+    POE::Filter, POE::Filter::Line.
+
+VERSION
+    0.02
 

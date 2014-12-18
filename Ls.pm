@@ -32,6 +32,43 @@ sub get {
 
 __END__
 
+=pod
+
 =head1 NAME
 
-POE::Filter::Ls - translates common ls formats into a hashref
+POE::Filter::Ls - Translates common ls formats into a hashref.
+
+=head1 METHODS
+
+=over 8
+
+=item C<new()>
+
+ Constructor.
+
+=item C<get($data_ar)>
+
+ Get input data in ls format and returns reference to array with ls informations
+ in hash references.
+
+=item C<put($data_ar)>
+
+ Put ls informations in hash references and returns data in ls format.
+ TODO Not functional.
+
+=back
+
+=head1 DEPENDENCIES
+
+L<POE::Filter::Line>.
+
+=head1 DEPENDECIES
+
+L<POE::Filter>,
+L<POE::Filter::Line>.
+
+=head1 VERSION
+
+0.02
+
+=cut
