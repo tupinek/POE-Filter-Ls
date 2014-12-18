@@ -1,12 +1,3 @@
-POE/Filter/Ls version 0.02
-=====================================
-
-INSTALLATION
-
-To install this module type the following:
-
-   perl Makefile.PL
-   make
-   make test
-   make install
+NAME
+    POE::Filter::Ls - translates common ls formats into a hashref
 

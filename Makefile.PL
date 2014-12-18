@@ -1,12 +1,27 @@
-use ExtUtils::MakeMaker;
-# See lib/ExtUtils/MakeMaker.pm for details of how to influence
-# the contents of the Makefile that is written.
-WriteMakefile(
-    'NAME'		=> 'POE::Filter::Ls',
-    'VERSION_FROM'	=> 'Ls.pm', # finds $VERSION
-    'PREREQ_PM'		=> { POE::Filter::Line => 0,
-			   }, # e.g., Module::Name => 1.1
-    ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM => 'Ls.pm', # retrieve abstract from module
-       AUTHOR     => 'Michael Ching <michaelc@wush.net>') : ()),
-);
+# Pragmas.
+use strict;
+use warnings;
+
+# Modules.
+use inc::Module::Install;
+
+# Definition.
+abstract 'Translates common ls formats into a hashref.';
+author 'Michael Ching <michaelc@wush.net>';
+author 'Michal Spacek <skim@cpan.org>';
+license 'perl';
+name 'POE-Filter-Ls';
+readme_from 'Ls.pm';
+requires 'POE::Filter::Line' => 0;
+requires 'perl' => '5.8.0';
+test_requires 'English' => 0;
+test_requires 'File::Object' => 0.05;
+test_requires 'Test::More' => 0;
+test_requires 'Test::NoWarnings' => 0;
+test_requires 'Test::Pod' => 0;
+test_requires 'Test::Pod::Coverage' => 0;
+tests_recursive;
+version '0.02';
+
+# Run.
+WriteAll();
