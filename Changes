@@ -5,6 +5,7 @@ Revision history for Perl extension POE::Filter::Ls.
  - Remove trailing whitespace.
  - Rewrite Changes file to CPAN::Changes::SPEC format.
  - Rewrite build system.
+ - Rewrite tests to t/ directory.
 
 0.01 2002-07-15
  - Initial release.
